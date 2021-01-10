@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dizzle! NASA Gallery</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/stylesheets/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Dizzle! NASA Rovers Gallery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/apod_2.html">APOD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/spirit_2.html">Spirit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/apodModal.html">APOD .Modal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/opportunity_2.html">Opportunity</a>
+        </li>
+       
+      </ul>
+   
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://apod.nasa.gov/apod/image/2010/Arp273Main_HubblePestana_3079.jpg" class="img-fluid" alt="Responsive image">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>APOD Image Gallery.</h1>
+            <p>This website fetches data using NAPA APIs and displays the images from different API endpoints. It was implemented suing Node JS and pure Javascript. This page does nothing and it is static. Included just for display only and uses Bootstap's Carousel template. Click on the links above to access images from each API endpoint.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://apod.nasa.gov/apod/image/2011/SteveMilkyWay_NasaTrinder_6144.jpg" class="img-fluid" alt="Responsive image"> 
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Udacity Intermediate Javascript Nanodegree .</h1>
+            <p>The goal of the Intermediate JavaScript Nanodegree program is to prepare students for roles in web development, server-side application development, and desktop development that require a more advanced set of JavaScript skills. This program will also prepare students with the skills required to use JavaScript frameworks like React, Angular, and Vue.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://apod.nasa.gov/apod/image/2010/Lobster_Mohr_2048.jpg" class="img-fluid" alt="Responsive image"> 
+        <div class="container">
+          <div class="carousel-caption text-right">
+            <h1>This is Project II - Mars Rover Dashboard.</h1>
+            <p>The functional JavaScript course project will be to build a dashboard for the past and current NASA Mars rovers, information about each mission and images from their excursions. You will be tasked with using all the ES6 syntax and functional programming concepts from the course to interact with a real NASA API and build the front end logic to create the dashboard..</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="https://apod.nasa.gov/apod/image/2004/IC2944_Filas_960.jpg" alt="..." class="rounded-circle" " width="140" height="140">
+        <h2>Udacity</h2>
+        <p>This is the second project for Udacity Javascript course. I used a combination of boostrap and custom CSS to design this image gallery. Specifically, the base template for the design was downloaded from the bootstrap homesite.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://apod.nasa.gov/apod/image/2006/PIA21615TitanNorthSummer1024.jpg" alt="..." class="rounded-circle" " width="140" height="140">
+        <h2>NASA</h2>
+        <p>The National Aeronautics and Space Administration is an independent agency of the U.S. federal government responsible for the civilian space program, as well as aeronautics and space research. NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FRB_486265257EDR_F0481570FHAZ00323M_.JPG" alt="..." class="rounded-circle" " width="140" height="140">
+        <h2>Javascript</h2>
+        <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Random NASA Image. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Apollo 12 was struck by lightning but a NASA flight controller named John Aaron saved it. He also saved the Apollo 13 crew members when he developed a safe way to safely re-enter via a power up sequence.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044631290503689E01_DXXX.jpg" alt="..." class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" " width="500" height="500">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">NASA launched a space probe to Pluto in 2006. It was scheduled to arrive 9 years later. A person can't be recognized as an astronaut by NASA until they have traveled 50 miles from the surface of the earth. NASA designed a spaceship that is capable of using a nuclear explosion to deflect an oncoming asteroid.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FRB_486265257EDR_F0481570FHAZ00323M_.JPG" alt="..." class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" " width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Another Random NASA Image. <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Because the Apollo astronauts did not qualify for life insurance by insurance companies, or even by NASA, they signed 'insurance autographs' prior to launch. If they died the hope was that the autographs would be worth a lot of money for their loved ones.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="https://apod.nasa.gov/apod/image/1907/M82_HubbleNobre_960.jpg" alt="..." class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" " width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Dizzle! NASA Gallery</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+      
+      
+      
+    <!-- Custom styles for modal -->
+    <link href="assets/stylesheets/curiosity.css" rel="stylesheet">
+      
+    <!-- Custom styles for this template -->
+    <link href="assets/stylesheets/carousel.css" rel="stylesheet">
+      
+      
+    
+    
+      
+         <!-- Link to app.js with defer till HTML render -->
+    <script defer src="assets/javascript/appApodModalDOM.js"></script>
+      
+          <!-- Link to app.js with defer till HTML render -->
+    <script defer src="assets/javascript/appApodModal.js"></script>
+      
+
+      
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Dizzle! NASA Rovers Gallery</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/apod_2.html">APOD</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/spirit_2.html">Spirit</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">APOD Modal</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/opportunity_2.html">Opportunity</a>
+        </li>
+      </ul>
+   
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+
+  <div  class="container">
+      <div style="padding:20px" ><h1 class="h1 text-center">Welcome to APOD Modal View Gallery</h1> </div>
+    
+    <div id="apodModal"  class="card-columns">
+        
+
+        <div class="card">
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/0205/MoonVenusMars_espenak.jpg" class="card-img-top" alt="Love and War by Moonlight" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+           
+             <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1603/PhoenixAurora_Helgason_960.jpg" class="card-img-top" alt="A Phoenix Aurora over Iceland" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+            
+        </div>
+
+        <div class="card">
+        
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/0403/m42mapped_croman_c1.jpg" class="card-img-top" alt="An Orion of a Different Color" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+
+        <div class="card">
+          
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1411/ic410_WISEantonucci_960.jpg" class="card-img-top" alt="Star Formation in the Tadpole Nebula" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1304/sn1006_chandra_960.jpg" class="card-img-top" alt="X-rays from Supernova Remnant SN 1006" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1704/ZetaOph_spitzer_960.jpg" class="card-img-top" alt="Zeta Oph: Runaway Star" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+          
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1006/heartsoul_wise.jpg" class="card-img-top" alt="WISE: Heart and Soul Nebulas in Infrared" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/0904/grb8_gemini.jpg" class="card-img-top" alt="SnGRB 090423: The Farthest Explosion Yet Measuredow" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <!-- Trigger the Modal -->
+            
+            <img class="myImages" id="myImg" src="https://apod.nasa.gov/apod/image/1508/NHPlutoStereoMay_ed2_1024.jpg" class="card-img-top" alt="Stereo Pluto" width="360" height="200">
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- The Close Button -->
+              <span class="close">&times;</span>
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+            </div>
+        </div>
+
+        
+
+          
+    </div>
+
+    
+    
+        
+
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2017-2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      
+              
+  
+
+</html>
